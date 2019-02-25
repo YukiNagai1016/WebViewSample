@@ -12,6 +12,10 @@
 		EF42DEE22223AD950016BFAD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF42DEE02223AD950016BFAD /* Main.storyboard */; };
 		EF42DEE42223AD960016BFAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF42DEE32223AD960016BFAD /* Assets.xcassets */; };
 		EF42DEE72223AD960016BFAD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF42DEE52223AD960016BFAD /* LaunchScreen.storyboard */; };
+		EF42DEEF2223ADBE0016BFAD /* go.png in Resources */ = {isa = PBXBuildFile; fileRef = EF42DEEE2223ADBE0016BFAD /* go.png */; };
+		EF42DEF12223ADC40016BFAD /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = EF42DEF02223ADC40016BFAD /* back.png */; };
+		EF42DEF32223ADCB0016BFAD /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = EF42DEF22223ADCB0016BFAD /* home.png */; };
+		EF42DEF52223ADF70016BFAD /* DotsLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF42DEF42223ADF70016BFAD /* DotsLoader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		EF42DEE32223AD960016BFAD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EF42DEE62223AD960016BFAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EF42DEE82223AD960016BFAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF42DEEE2223ADBE0016BFAD /* go.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = go.png; sourceTree = "<group>"; };
+		EF42DEF02223ADC40016BFAD /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
+		EF42DEF22223ADCB0016BFAD /* home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home.png; sourceTree = "<group>"; };
+		EF42DEF42223ADF70016BFAD /* DotsLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DotsLoader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,13 +63,25 @@
 			isa = PBXGroup;
 			children = (
 				EF42DEDC2223AD940016BFAD /* AppDelegate.swift */,
+				EF42DEF42223ADF70016BFAD /* DotsLoader.swift */,
 				EF42DEDE2223AD940016BFAD /* ViewController.swift */,
 				EF42DEE02223AD950016BFAD /* Main.storyboard */,
+				EF42DEF62223AEB20016BFAD /* Images */,
 				EF42DEE32223AD960016BFAD /* Assets.xcassets */,
 				EF42DEE52223AD960016BFAD /* LaunchScreen.storyboard */,
 				EF42DEE82223AD960016BFAD /* Info.plist */,
 			);
 			path = WebViewSample;
+			sourceTree = "<group>";
+		};
+		EF42DEF62223AEB20016BFAD /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				EF42DEEE2223ADBE0016BFAD /* go.png */,
+				EF42DEF02223ADC40016BFAD /* back.png */,
+				EF42DEF22223ADCB0016BFAD /* home.png */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,8 +143,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				EF42DEE72223AD960016BFAD /* LaunchScreen.storyboard in Resources */,
+				EF42DEF12223ADC40016BFAD /* back.png in Resources */,
+				EF42DEF32223ADCB0016BFAD /* home.png in Resources */,
 				EF42DEE42223AD960016BFAD /* Assets.xcassets in Resources */,
 				EF42DEE22223AD950016BFAD /* Main.storyboard in Resources */,
+				EF42DEEF2223ADBE0016BFAD /* go.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,6 +159,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EF42DEDF2223AD940016BFAD /* ViewController.swift in Sources */,
+				EF42DEF52223ADF70016BFAD /* DotsLoader.swift in Sources */,
 				EF42DEDD2223AD940016BFAD /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
